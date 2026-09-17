@@ -1,0 +1,65 @@
+export const portfolio = {
+  name: "Vishnu K V",
+  role: "Junior Software Developer & Web Developer",
+  email: "vishnukvofficial1@gmail.com",
+  location: "Kerala, India",
+  availability: "Open to opportunities",
+  links: {
+    linkedin: "https://linkedin.com/in/vishnu-k-v-b6444a33b",
+    github: "https://github.com/Vishnukv66991",
+    portfolio: "https://vishnu-kv.vercel.app",
+  },
+  tagline: "I turn complex ideas into fast, scalable digital products — from AI-powered platforms to production-ready web experiences.",
+  about: [
+    "I’m a software developer who enjoys working where product thinking meets careful engineering. Over the past year, I’ve shipped and supported 8+ production applications for healthcare, e-commerce, disability services, and growing businesses — translating real requirements into reliable experiences people can use.",
+    "My work spans React interfaces, Python and FastAPI services, SQL data models, and AI-assisted workflows. I care about the details behind a polished product: thoughtful architecture, measurable speed, resilient releases, and an interface that feels effortless.",
+  ],
+  skills: ["React.js", "Python", "JavaScript", "FastAPI", "REST APIs", "PostgreSQL", "MySQL", "Flask", "Git", "OpenAI API", "Gemini API", "OCR"],
+  experience: [
+    {
+      role: "Web Developer",
+      company: "Up2Tech",
+      location: "Kerala, India",
+      period: "Oct 2025 — Present",
+      summary: "Ship, maintain, and optimize production digital experiences across healthcare, e-commerce, disability services, and service-led businesses.",
+      achievements: [
+        "Delivered 8+ production web applications and business websites from build through testing and deployment.",
+        "Created responsive, reusable interfaces across desktop and mobile while supporting data-driven content workflows.",
+        "Diagnosed frontend, backend, performance, and compatibility issues before release, improving reliability across live environments.",
+      ],
+    },
+  ],
+  projects: [
+    {
+      number: "01",
+      name: "PixelAI",
+      type: "AI Design QA Platform",
+      description: "Architected an AI-powered quality assurance platform that turns manual brand review into an automated workflow — combining OCR and multimodal AI to inspect design files, validate brand rules, and produce actionable audit reports.",
+      impact: "Automated end-to-end design compliance reviews",
+      stack: ["React.js", "FastAPI", "Python", "MySQL", "OCR", "OpenAI", "Gemini"],
+      image: "pixelai",
+    },
+    {
+      number: "02",
+      name: "Task Manager",
+      type: "Role-based Collaboration System",
+      description: "Engineered a secure workspace for four distinct roles — Admin, Manager, Team Lead, and Member — with authentication, granular authorization, task assignment, subtasks, and collaborative project tracking.",
+      impact: "Unified 4 role-specific workflows in one system",
+      stack: ["Python", "Flask", "REST APIs", "Supabase"],
+      image: "taskManager",
+    },
+    {
+      number: "03",
+      name: "VagiBiom",
+      type: "Performance Optimization",
+      description: "Rebuilt the frontend performance pipeline with lazy loading, image optimization, and targeted code improvements — creating a markedly faster and more responsive experience.",
+      impact: "Raised Lighthouse performance from 40 to 90",
+      stack: ["HTML5", "CSS3", "JavaScript", "Web Performance"],
+      image: "vagibiom",
+    },
+  ],
+  education: [
+    { degree: "Master of Computer Applications", school: "LEAD College of Management · University of Calicut", period: "2024 — 2026", detail: "75% aggregate" },
+    { degree: "Bachelor of Computer Applications", school: "Sree Narayana Guru College of Advanced Studies · University of Calicut", period: "2021 — 2024", detail: "" },
+  ],
+} as const;
